@@ -12,7 +12,85 @@
 </head>
 
 <body>
+<form id="category">
+  <div>
+    <label for="name_category">
+      Введите название категории
+      <input type="text" name="name_category" id="name_category">
+    </label>
+  </div>
+  <div>
+    <label for="description_category">
+      Введите описание категории
+      <input type="text" name="description_category" id="description_category">
+    </label>
+  </div>
+  <input type="submit" value="Добавить категорию" id="submit">
+</form>
 
+<table id="table_categoey">
+  <thead class="header_table">
+    <th>Номер</th>
+    <th>Название категории</th>
+    <th>Описание категории</th>
+      </thead>
+  <tbody id="category-container">
+
+  </tbody>
+</table>
+<form id="products">
+  
+    <div>Выберите категорию
+      <select name="selct_category" id="select_category">
+        
+      </select>
+    </div>
+    <label for="name_products">
+      Введите название товара
+      <input type="text" name="name_products" id="name_products">
+    </label>
+  </div>
+  <div>
+    <label for="description_products">
+      Введите описание товара
+      <input type="text" name="description_products" id="description_products">
+    </label>
+  </div>
+  <div>
+    <label for="manufacture_products">
+      Введите производителя товара
+      <input type="text" name="manufacture_products" id="manufacture_products">
+    </label>
+  </div>
+  <div>
+    <label for="article_products">
+      Введите артикул товара
+      <input type="text" name="article_products" id="article_products">
+    </label>
+  </div>
+<div>
+  <label for="price_products">
+    Введите стоимость товара
+    <input type="text" name="price_products" id="price_products">
+  </label>
+</div>
+  <input type="submit" value="Добавить товар" id="submit_product">
+</form>
+<table id="goods">
+  <thead class="header_table">
+    <th>Номер</th>
+    <th>Название категории</th>
+    <th>Описание категории</th>
+    <th>Название товара</th>
+    <th>Описание товара</th>
+    <th>Производитель</th>
+    <th>Артикул товара</th>
+    <th>Стоимость товара</th>
+  </thead>
+  <tbody id="product-container">
+
+  </tbody>
+</table>
 </body>
 
 </html>
